@@ -1,0 +1,15 @@
+{
+  "name": "mapty",
+  "version": "1.0.0",
+  "description": "an application for setting workouts on your location map",
+  "default": "mapty.html",
+  "scripts": {
+    "start": "parcel mapty.html",
+    "build": "parcel build mapty.html --dist-dir ./dist"
+  },
+  "author": "Abdurahman Aramide",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}
